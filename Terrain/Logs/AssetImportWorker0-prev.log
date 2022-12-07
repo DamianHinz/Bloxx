@@ -1,0 +1,281 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.11f1 (0a5ca18544bf) revision 679073'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19044) 64bit Professional' Language: 'de' Physical Memory: 16292 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.11f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/Sauron/Desktop/GameDev/Terrain test
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+64393
+Successfully changed project path to: C:/Users/Sauron/Desktop/GameDev/Terrain test
+C:/Users/Sauron/Desktop/GameDev/Terrain test
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 94.78 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.11f1 (0a5ca18544bf)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Sauron/Desktop/GameDev/Terrain test/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GTX 760 (ID=0x1187)
+    Vendor:   NVIDIA
+    VRAM:     4052 MB
+    Driver:   27.21.14.5671
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56160
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.007828 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 91.80 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.575 seconds
+Domain Reload Profiling:
+	ReloadAssembly (576ms)
+		BeginReloadAssembly (67ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (415ms)
+			LoadAssemblies (65ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (83ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (20ms)
+			SetupLoadedEditorAssemblies (269ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (92ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (124ms)
+				ProcessInitializeOnLoadMethodAttributes (43ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.011113 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Sauron\Desktop\GameDev\Terrain test\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Sauron\Desktop\GameDev\Terrain test\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 94.97 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.097 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1098ms)
+		BeginReloadAssembly (98ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (22ms)
+		EndReloadAssembly (904ms)
+			LoadAssemblies (83ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (224ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (51ms)
+			SetupLoadedEditorAssemblies (512ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (95ms)
+				BeforeProcessingInitializeOnLoad (100ms)
+				ProcessInitializeOnLoadAttributes (216ms)
+				ProcessInitializeOnLoadMethodAttributes (86ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Shader 'MapMagic/TerrainPreviewHDRP': dependency 'BaseMapShader' shader 'Hidden/HDRP/TerrainLit_Basemap' not found
+Shader 'MapMagic/TerrainPreviewHDRP': dependency 'BaseMapGenShader' shader 'Hidden/HDRP/TerrainLit_BasemapGen' not found
+Shader 'MapMagic/TerrainPreviewHDRP': dependency 'BaseMapShader' shader 'Hidden/HDRP/TerrainLit_Basemap' not found
+Shader 'MapMagic/TerrainPreviewHDRP': dependency 'BaseMapGenShader' shader 'Hidden/HDRP/TerrainLit_BasemapGen' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 1.57 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5295 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 49 unused Assets / (15.4 MB). Loaded Objects now: 5761.
+Memory consumption went from 246.7 MB to 231.3 MB.
+Total: 5.497700 ms (FindLiveObjects: 0.486200 ms CreateObjectMapping: 0.160400 ms MarkObjects: 3.681100 ms  DeleteObjects: 1.168400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 151780.941062 seconds.
+  path: Assets/New Terrain.asset
+  artifactKey: Guid(cd04d3f5251446041bd1a5eb749f9468) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Terrain.asset using Guid(cd04d3f5251446041bd1a5eb749f9468) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The tree Tree1 couldn't be instanced because the prefab contains no valid mesh renderer.
+The tree Tree1 couldn't be instanced because the prefab contains no valid mesh renderer.
+The tree GrassE must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+The tree littleLeavesShrub must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+The tree bigLeavesShrubs must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+The tree bigLeavesTree must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+The tree rock must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+ -> (artifact id: '64063493b6d67c4374590ed069d6a70c') in 0.117168 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1173.855269 seconds.
+  path: Assets/com
+  artifactKey: Guid(0f6c823187c69c04c9e881070fc2b53e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/com using Guid(0f6c823187c69c04c9e881070fc2b53e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0705a40c75310bff05cf973c2506192') in 0.001444 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.057962 seconds.
+  path: Assets/TutorialInfo
+  artifactKey: Guid(ba062aa6c92b140379dbc06b43dd3b9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TutorialInfo using Guid(ba062aa6c92b140379dbc06b43dd3b9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94fb6c6bacde1da6d0b7d43ec8d6e3b7') in 0.001346 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.873082 seconds.
+  path: Assets/polygonTrees
+  artifactKey: Guid(174416fcd20f5db469e7a3424e7e4821) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polygonTrees using Guid(174416fcd20f5db469e7a3424e7e4821) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cc515591d11ef1c3a406daecab29527') in 0.002657 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.378430 seconds.
+  path: Assets/PBR_Rock_Cliffs_Pack
+  artifactKey: Guid(40b7926f75ec6b84397b733c9c6c9dfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PBR_Rock_Cliffs_Pack using Guid(40b7926f75ec6b84397b733c9c6c9dfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '452981aa7437cd59bdd9ea52ba1eb8ac') in 0.001402 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.031250 seconds.
+  path: Assets/PBR_Rock_Cliffs_Pack/Textures
+  artifactKey: Guid(d6e9ae8d8d39d7845ba2b1aa3d2352f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PBR_Rock_Cliffs_Pack/Textures using Guid(d6e9ae8d8d39d7845ba2b1aa3d2352f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af0852ff5104fd55e7a6c87b2de1aa99') in 0.003072 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.025819 seconds.
+  path: Assets/PBR_Rock_Cliffs_Pack/Textures/Checker.tga
+  artifactKey: Guid(a4f52b53d435fe246849392509573518) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PBR_Rock_Cliffs_Pack/Textures/Checker.tga using Guid(a4f52b53d435fe246849392509573518) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a61bee2dae77d84119a32c025dd4f204') in 0.039460 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.974785 seconds.
+  path: Assets/PBR_Rock_Cliffs_Pack/Textures/Cliffs_Textures
+  artifactKey: Guid(e84395368b5db92498441dade239aa12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PBR_Rock_Cliffs_Pack/Textures/Cliffs_Textures using Guid(e84395368b5db92498441dade239aa12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5851cce4d3e16ff5a83052883dc0f566') in 0.001360 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.040986 seconds.
+  path: Assets/PBR_Rock_Cliffs_Pack/Textures/Cliffs_Textures/Cliffs_Stones_AlbedoTransparency.tga
+  artifactKey: Guid(6da47cf0268120944bdb1ae55fc20e93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PBR_Rock_Cliffs_Pack/Textures/Cliffs_Textures/Cliffs_Stones_AlbedoTransparency.tga using Guid(6da47cf0268120944bdb1ae55fc20e93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51660ee421575a7bb513bed4a29ca580') in 0.013564 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/PBR_Rock_Cliffs_Pack/Textures/Cliffs_Textures/Cliffs_Stones_Normal.tga
+  artifactKey: Guid(62a393d36f487e54488aeade6c53ff71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PBR_Rock_Cliffs_Pack/Textures/Cliffs_Textures/Cliffs_Stones_Normal.tga using Guid(62a393d36f487e54488aeade6c53ff71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '406cdaa2af34dae83055078460166494') in 0.038613 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/PBR_Rock_Cliffs_Pack/Textures/Cliffs_Textures/Cliffs_Stones_MetallicSmoothness.tga
+  artifactKey: Guid(4eeeedaa49398c146875282bb12bd814) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PBR_Rock_Cliffs_Pack/Textures/Cliffs_Textures/Cliffs_Stones_MetallicSmoothness.tga using Guid(4eeeedaa49398c146875282bb12bd814) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95f8f66fed75e5851eae6eda8a55f351') in 0.014481 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.309015 seconds.
+  path: Assets/MapMagic/Terrains
+  artifactKey: Guid(1550bd822f308ec46ab135317b39644f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MapMagic/Terrains using Guid(1550bd822f308ec46ab135317b39644f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '585d083436f993b1c79740e761b28d52') in 0.001505 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.110339 seconds.
+  path: Assets/MapMagic/Terrains/MapMagic.asmref
+  artifactKey: Guid(fde0cd98306149a4c9d859444099717b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MapMagic/Terrains/MapMagic.asmref using Guid(fde0cd98306149a4c9d859444099717b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1319c532c0a5793b1f2903e6668dbcf') in 0.002722 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.522666 seconds.
+  path: Assets/MapMagic/Terrains/Editor
+  artifactKey: Guid(f2a0a47120a18a74a9ca796b56714c70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MapMagic/Terrains/Editor using Guid(f2a0a47120a18a74a9ca796b56714c70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3f1f117b253fbd9927b8df7938ece96') in 0.002855 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.020288 seconds.
+  path: Assets/MapMagic/Terrains/Editor/MapMagic.Editor.asmref
+  artifactKey: Guid(61a7dbfcc802c1946b6a8a230fd91895) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MapMagic/Terrains/Editor/MapMagic.Editor.asmref using Guid(61a7dbfcc802c1946b6a8a230fd91895) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a5950e8901f7e16e2c460ef319b2d11') in 0.001342 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.231175 seconds.
+  path: Assets/Parks And Nature Pack
+  artifactKey: Guid(78b24a86f0dd8ed4f9d0e7f6bf4aea48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Parks And Nature Pack using Guid(78b24a86f0dd8ed4f9d0e7f6bf4aea48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1def8f4b3675e3aa32800708f094df66') in 0.001344 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 16.321510 seconds.
+  path: Assets/MapMagic/Demo/LandTextures/CliffDark_nrm.tif
+  artifactKey: Guid(25942b7d55f66f34b96829c304c0d92b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MapMagic/Demo/LandTextures/CliffDark_nrm.tif using Guid(25942b7d55f66f34b96829c304c0d92b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14be17b8d66e1d65f349ddee5c243326') in 0.014435 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.152433 seconds.
+  path: Assets/MapMagic/Demo/LandTextures/GrassGreen_nrm.tif
+  artifactKey: Guid(7f9dbb35b6a417044bde86476b626336) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MapMagic/Demo/LandTextures/GrassGreen_nrm.tif using Guid(7f9dbb35b6a417044bde86476b626336) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ff05f855acdf1a03bb7bb9e48ba2727') in 0.013801 seconds 
